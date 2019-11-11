@@ -1,1 +1,2 @@
-alert("初めまして世界");
+let myName = '鈴木';
+alert(myName);
