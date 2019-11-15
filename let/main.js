@@ -1,23 +1,21 @@
-let mystring = '鈴木';
-let currentDate = new Date();
-let myFunction = () => console.log('関数です');
+function myFunction(a,b){
+    if(a >= 100){
+        return a;
+    }
 
-alert(currentDate);
+    return b;
+}
 
+function calcFunction(price, tax){
+    const result = price + price * tax;
+    return result;
+}
 
-let myname = '鈴木';
-myName = '高橋';
+const myResult = calcFunction(100, 0.1);
+console.log(myResult);
 
-let number1 = 10;
-let number2 = 20;
-let sum = number1 + number2;
-console.log(sum);
+function myFunction(){
+    console.log('こんにちは');
+}
 
-let familyName = '鈴木';
-let firstName = '太郎';
-let fullName = familyName + firstName;
-console.log(fullName);
-
-let value1 = 150;
-let value2 = value1;
-console.log(value2);
+myFunction();
